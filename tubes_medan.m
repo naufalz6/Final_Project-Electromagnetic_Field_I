@@ -3,7 +3,7 @@ close all;
 clc;
 
 %segmentasi
-n=20;
+n=100;
 e_1=4*8.854*(10^(-12));
 e_2=e_1/4;
 x=zeros(n+1,1);

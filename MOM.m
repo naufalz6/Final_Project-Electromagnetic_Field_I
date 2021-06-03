@@ -83,3 +83,8 @@ for i=1:16
     q=q+matrix5(i,1);
 end
 C=q/2;
+
+contourf(matrix,'linecolor','non');
+colormap(jet(256));
+colorbar;
+caxis([-1,1]);
